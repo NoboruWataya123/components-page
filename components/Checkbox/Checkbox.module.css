@@ -1,0 +1,21 @@
+@media (min-width: 670px) {
+    .checkbox{
+        padding-top: 0.5rem;
+        border: 1px solid #828282;
+        width: 21px;
+      height: 21px;
+      box-sizing: border-box;
+      border-radius: 4px;
+      }
+}
+
+@media (max-width: 670px) {
+    .checkbox{
+        padding-top: 0.5rem;
+        border: 1px solid #828282;
+        width: 21px;
+      height: 21px;
+      box-sizing: border-box;
+      border-radius: 4px;
+      }
+}
