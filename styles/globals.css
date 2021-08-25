@@ -1,34 +1,45 @@
 html,
 body {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 
-  color: var(--black);
-  background: var(--white);
+	color: var(--black);
+	background: var(--white);
 
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	font-family:
+		-apple-system,
+		BlinkMacSystemFont,
+		Segoe UI,
+		Roboto,
+		Oxygen,
+		Ubuntu,
+		Cantarell,
+		Fira Sans,
+		Droid Sans,
+		Helvetica Neue,
+		sans-serif;
 }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
 
-  color: inherit;
+	color: inherit;
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 :root {
-  --black: hsl(215, 14%, 27%);
-  --white: hsl(0, 0%, 100%);
-  --primary: hsl(252, 97%, 66%);
-  --star: yellow;
-  --primary-hover: hsl(252, 63%, 37%);
-  --red: hsl(9, 96%, 71%);
-  --green: hsl(155, 74%, 44%);
-  --green-light: hsl(155, 77%, 88%);
-  --font-family: "Roboto", sans-serif;
-  --grey-light: hsl(0, 0%, 92%);
+	--black: hsl(215, 14%, 27%);
+	--white: hsl(0, 0%, 100%);
+	--primary: hsl(252, 97%, 66%);
+	--star: yellow;
+	--primary-hover: hsl(252, 63%, 37%);
+	--red: hsl(9, 96%, 71%);
+	--green: hsl(155, 74%, 44%);
+	--green-light: hsl(155, 77%, 88%);
+	--font-family: 'Roboto', sans-serif;
+	--grey-light: hsl(0, 0%, 92%);
+	--grey-hover: hsl(0, 11%, 85%);
 }

@@ -1,0 +1,77 @@
+.danger{
+    border:1px solid red;
+    width: 15rem;
+    height: 2rem;
+    border-radius: 8px;
+}
+.danger:focus{
+    border: 2px solid tomato;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}
+.grey{
+    border:1px solid gainsboro;
+    width: 15rem;
+    height: 2rem;
+    border-radius: 8px;
+}
+.grey:focus{
+    border: 2px solid gray;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}
+.green{
+    border:1px solid green;
+    width: 15rem;
+    height: 2rem;
+    border-radius: 8px;
+}
+.green:focus{
+    border: 2px solid burlywood;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}
+.ghost{
+    border:1px solid var(--primary);
+    width: 15rem;
+    height: 2rem;
+    padding:10px;
+    border-radius: 8px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+.ghost:focus{
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.1);
+}
+
+.primary{
+    border:1px solid var(--primary);
+    width: 15rem;
+    height: 2rem;
+    border-radius: 8px;
+}
+.primary:focus{
+    border: 2px solid var(--primary-hover);
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}
+.default{
+    border:1px solid var(--primary);
+    width: 15rem;
+    height: 2rem;
+    border-radius: 8px;
+}
+.default:focus{
+    border: 1px solid var(--primary);
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}

@@ -1,33 +1,3 @@
-@media (min-width: 670px) {
-  .container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-  .buttons {
-    position: relative;
-    min-height: 100vh;
-    margin: 1rem;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    width: 100%;
-  }
-  .heading {
-    width: 100%;
-    padding-left: 4rem;
-  }
-  .wrapper {
-    display: flex;
-  }
-  .sidebar {
-    width: 30%;
-  }
-}
-
-@media (max-width: 670px) {
-  .container {
-    min-height: 100vh;
-    margin: 1rem;
-  }
+.wrapper{
+  padding: 2rem 0 0 0;
 }
