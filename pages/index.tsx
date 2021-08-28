@@ -13,6 +13,9 @@ function Home(): JSX.Element {
     </Head>
     <div className={styles.wrapper}>
       <Button size='m' color='ghost'>ghost</Button>
+      <Button size='m' color='primary'>primary</Button>
+      <Button size='m' color='danger'>danger</Button>
+      <Button size='m' color='grey'>grey</Button>
     </div>
     </>
   )

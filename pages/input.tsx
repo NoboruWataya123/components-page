@@ -14,8 +14,6 @@ function Input(): JSX.Element {
     </Head>
     <div className={styles.wrapper}>
         <div className={styles.input}>
-          <label htmlFor="default">&lt;InputComponent&gt; </label>
-          <br />
           <label htmlFor="default">default</label>
           <br />
           <InputComponent name='default' placeholder='Default'></InputComponent>
